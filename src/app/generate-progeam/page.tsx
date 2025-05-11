@@ -1,5 +1,5 @@
-const ProfilePage = () => {
-  return <div>ProfilePage</div>;
+const GenerateProgramPage = () => {
+  return <div>GenerateProgramPage</div>;
 };
 
-export default ProfilePage;
+export default GenerateProgramPage;
