@@ -18,6 +18,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "SmartFit AI - Get Jacked",
   description: "A modern fitness AI platform to get jacked for free.",
+  icons: {
+    icon: "/ai-avatar.png",
+  },
 };
 
 export default function RootLayout({
