@@ -36,7 +36,7 @@ export default function RootLayout({
         <body
           className={`${geistSans.variable} ${geistMono.variable} antialiased`}
         >
-          <div className="px-2">
+          <div className="mx-2 sm:mx-4 md:mx-8 lg:mx-12 xl:mx-20 2xl:mx-auto max-w-screen-2xl">
             <Navbar />
 
             {/* GRID BACKGROUND */}
