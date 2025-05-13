@@ -4,7 +4,6 @@ import { useUser } from "@clerk/nextjs";
 import { useQuery } from "convex/react";
 import { api } from "../../../convex/_generated/api";
 import { useState } from "react";
-import ProfileHeader from "@/components/ProfileHeader";
 import NoFitnessPlan from "@/components/NoFitnessPlan";
 import CornerElements from "@/components/CornerElements";
 import { Button } from "@/components/ui/button";
@@ -16,6 +15,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
+import ProfileHeader from "@/components/Profile-Header";
 
 const ProfilePage = () => {
   const { user } = useUser();
