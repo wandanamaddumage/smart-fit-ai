@@ -2,8 +2,8 @@
 
 import { SignInButton, SignUpButton, UserButton, useUser } from "@clerk/nextjs";
 import { DumbbellIcon, HomeIcon, UserIcon, ZapIcon } from "lucide-react";
-import Link from "next/link";
 import { Button } from "./ui/button";
+import Link from "next/link";
 
 const Navbar = () => {
   const { isSignedIn } = useUser();
